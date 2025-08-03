@@ -26,7 +26,7 @@ class MinStack {                                      // This stack uses less in
     }
 
     public void pop() {
-        PrimaryStack.pop();
+        PrimaryStack.pop(); 
         Minst.pop();
         //min = Minst.peek();
     }
